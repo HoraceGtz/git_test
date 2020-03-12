@@ -21,6 +21,8 @@ class Solution:
     def getHeight(self,root):
         countl=0
         countr=0
+
+        #FUnciona en ramas extremas
         current=root
         while current:
             countl+=1

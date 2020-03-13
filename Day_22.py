@@ -19,6 +19,10 @@ class Solution:
 
 
     def getHeight(self,root):
+       
+       #Reorganizar algoritmo
+
+"""
         countl=0
         countr=0
 
@@ -33,7 +37,7 @@ class Solution:
             current = current.right
         
         return max(countl,countr)-1
-
+"""
 T=[3,5,2,1,4,6,7]
 myTree=Solution()
 root=None
